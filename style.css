@@ -34,6 +34,71 @@
 
 
 
+.title{
+	font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .4em;
+    line-height: 25px;
+    color: #9e9a94;
+    margin: 0;
+}
+.heading{
+	    font-family: "Cormorant Garamond",serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #3e3930;
+    font-size: 50px;
+    line-height: 1.1em;
+}
+
+.desc{
+	    font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #776f60;
+    background-color: 
+}
+
+.icon-why{
+	background-color: #ce8272;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	transform: 0.5s;
+}
+
+.title-why{
+	color: #242424;
+	font-size: 24px;
+	font-family: "Marcellus",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	margin-bottom: 12px;
+}
+
+.desc-title{
+	font-size: 16px;
+	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    color: #747474;
+	text-align: center;
+	margin-bottom: 36px;
+}
+
+.icon-why:hover{
+	background-color: #db5235;
+}
+
+
+
+
+
+
+
 
 
 
@@ -49,6 +114,18 @@
 	width: 5%;
 	height: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,58 +185,6 @@ footer {
 		margin-bottom: 50px;
 	}
 }
-.title{
-	    font-size: 11px;
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: .4em;
-    line-height: 25px;
-    color: #9e9a94;
-    margin: 0;
-}
-.heading{
-	    font-family: "Cormorant Garamond",serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #3e3930;
-    font-size: 50px;
-    line-height: 1.1em;
-	
-}
-.desc{
-	    font-family: Montserrat,sans-serif;
-    font-size: 15px;
-    line-height: 29px;
-    font-weight: 400;
-    color: #776f60;
-    background-color: 
-}
-.icon-why{
-	background-color: #ce8272;
-	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 30px;
-	transform: 0.5s;
-}
-.title-why{
-	color: #242424;
-	font-size: 24px;
-	font-family: "Marcellus",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	margin-bottom: 12px;
-}
-.desc-title{
-	font-size: 16px;
-	font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
-    color: #747474;
-	text-align: center;
-	margin-bottom: 36px;
-}
-.icon-why:hover{
-	background-color: #db5235;
-}
+
+
 

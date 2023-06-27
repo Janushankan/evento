@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
     <!--Navbar-->
-    <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary pb-2" >
+    <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary pb-2">
         <div class="container-fluid">
             <img src="/images/logo.png" class="img-fluid img-thumbnail" alt="logo" style="height: 65px; width: 150px;">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,7 +116,7 @@
                     </ul>
                 </div>
 
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">About</a>
 
                 <div class="dropdown">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -167,7 +166,7 @@
                     </ul>
                 </div>
                     <a class="nav-link" href="#">Portfolio</a>
-                    <a class="nav-link" href="#">Packages</a>
+                    <a class="nav-link" href="#">Pricing</a>
                     <a class="nav-link" href="/contact_us.html">Contact Us</a>
                 </div>
             </div>
@@ -185,312 +184,65 @@
 
     <main>
         <!-- Main content goes here -->
+        <!-- <section class="container mt-5 pt-5 pb-5">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+           -->
 
+           <div class="container">
+            <section id="contact-form">
+              <h2>Contact Us</h2>
+              <form>
+                <!-- Form fields go here -->
+              </form>
+            </section>
+          
+            <section id="contact-info">
+              <h2>Contact Information</h2>
+              <!-- Contact details go here -->
+            </section>
+          </div>
 
-        <!-- Carousel -->
-
-        <div id="carouselExampleIndicators" class="carousel slide mb-5 pt-5 pb-5" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/0010.jpg" class="d-block w-100 img-fluid" alt="Image 1" style="width: 1600px; height: 480px;">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/0020.png" class="d-block w-100 img-fluid" alt="Image 2" style="width: 1600px; height: 480px;">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/003.jpg" class="d-block w-100 img-fluid" alt="Image 3" style="width: 1600px; height: 480px;">
-                </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
-        
-        <!-- Left& Right Image -->
-        <!-- <div class="container text-center">
-            <p class="h1">Our Services</p>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img src="/images/021.jpg" alt="021 Left Image" class="img-fluid float-left">
-                    <div class="content">
-                        <h3>Left Image Heading</h3>
-                        <p>Left Image Text Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/images/022.jpg" alt="022 Right Image" class="img-fluid float-right">
-                    <div class="content">
-                        <h3>Right Image Heading</h3>
-                        <p>Right Image Text Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/images/023.jpg" alt="023 Left Image" class="img-fluid float-left">
-                    <div class="content">
-                        <h3>Left Image Heading</h3>
-                        <p>Left Image Text Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/images/024.jpg" alt="024 Right Image" class="img-fluid float-right">
-                    <div class="content">
-                        <h3>Right Image Heading</h3>
-                        <p>Right Image Text Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" required></textarea>
             </div>
-        </div>
-        
-        <br>
-        <br> -->
-
-        <!-- Section -->
-
-
-        <div class="container mb-5 pb-5">
-            <div class="row mb-3">
-                <div class="col-lg-6">
-                    <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-1.jpg" alt="" srcset="" width="100%">
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex ps-5">
-                    <div class="d-flex flex-column justify-content-center ps-5">
-                        <div class="title">
-                            CATERING
-                        </div>
-                        <div class="heading">
-                            Social events
-                        </div>
-                        <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="row mb-5 mt-5 pt-5">
-                <div class="col-lg-6 d-flex">
-                    <div class="d-flex flex-column justify-content-center ps-5">
-                        <div class="title">
-                            CATERING
-                        </div>
-                        <div class="heading">
-                            Social events
-                        </div>
-                        <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex ps-5">
-                    <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-4.jpg" alt="" srcset="" width="100%">
-                    </div>
-                    
-                </div>
-            </div>
-
-
-            <div class="row mb-3 pb-5 mt-5 pt-5">
-                <div class="col-lg-6">
-                    <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-3.jpg" alt="" srcset="" width="100%">
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex ps-5">
-                    <div class="d-flex flex-column justify-content-center ps-5">
-                        <div class="title">
-                            CATERING
-                        </div>
-                        <div class="heading">
-                            Corporate parties
-                        </div>
-                        <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        
-        </div>
-
-        
-
-
-
-
-
-
-
-
-
-        <!-- cards-wrapper -->
-        
-        <!-- <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
-            <div class="col" style="width: 18rem;">
-                <div class="card">
-                    <img src="/images/011.jpg" class="card-img-top" alt="011">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="width: 18rem;">
-                <div class="card">
-                    <img src="/images/012.jpg" class="card-img-top" alt="012">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="width: 18rem;">
-                <div class="card">
-                    <img src="/images/013.jpg" class="card-img-top" alt="013">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col" style="width: 18rem;">
-                <div class="card">
-                    <img src="/images/014.jpg" class="card-img-top" alt="014">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-        <!-- Why us -->
-
-
-        <div class="container mb-5 pb-5">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="d-flex justify-content-center align-items-center flex-column">
-                        <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
-                        </div>
-                        <div class="title-why">
-                            Exclusive Design
-                        </div>
-                        <div class="desc-title">
-                            Apparently we had reached a great height in the atmosphere
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-       
-
-        <!-- sponsor image with animation -->
-        
-
-        
-
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+              
+          <section id="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+              <li><i class="bi bi-telephone"></i> Phone: 123-456-7890</li>
+              <li><i class="bi bi-envelope"></i> Email: info@example.com</li>
+              <li><i class="bi bi-geo-alt"></i> Address: 123 Main St, City, Country</li>
+            </ul>
+          </section>
+          
 
 
 
