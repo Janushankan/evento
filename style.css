@@ -41,8 +41,28 @@
 }
 
 
+.navbar-nav .nav-link:hover {
+	color: #fff;
+	background-color: #f55baf;
+	border-radius: 10px;
+}
+
+.widget_contacts .widget_contacts_address .text {
+	position: relative;
+	top: -5px;
+}
+
+.widget_contacts .text {
+    max-width: 185px;
+    font-size: 13px;
+    overflow: hidden;
+}
 
 
+.widget_contacts ul {
+    padding: 0;
+    list-style: none;
+}
 
 
 
