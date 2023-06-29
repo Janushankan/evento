@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,179 +8,247 @@
     <title>EVENTO</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
     <!-- animation effects -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-    
+
     <!-- for footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
     <!--Navbar-->
-    <nav class="navbar px-5 navbar-expand-lg bg-body-tertiary pb-2" >
+    <nav class="navbar px-5 navbar-expand-lg bg-danger-subtle pb-2">
         <div class="container-fluid">
-            <img src="/images/logo.png" class="img-fluid img-thumbnail rounded" alt="logo" style="height: 65px; width: 150px;">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="/index.html"><img src="/images/logo.png" class="img-fluid img-thumbnail rounded" alt="logo"
+                    style="height: 65px; width: 150px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav gap-40"><a class="nav-link active" aria-current="page" href="#">Home</a>
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categories
-                    </a>
-                
-                    <ul class="dropdown-menu">
-                        <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo;</a>
-                        <li><hr class="dropdown-divider"></li>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo;</a>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <ul class="submenu dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
                                 <!-- <li><hr class="dropdown-divider"></li> -->
                                 <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
-                                </ul>
+                                <li>
+                                    <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
-                            </ul>
-                        </li>
-                        <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
-                        <li><hr class="dropdown-divider"></li>
-                            <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <li><hr class="dropdown-divider"></li>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
-                                </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="#"> Dropdown item 3 &raquo;</a>
-                        <li><hr class="dropdown-divider"></li>
-                            <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <li><hr class="dropdown-divider"></li>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
-                                </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="#"> Dropdown item 4 &raquo;</a>
-                            <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <li><hr class="dropdown-divider"></li>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
-                                </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <a class="nav-link" href="#">About Us</a>
-
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Services
-                    </a>
-
-                    <ul class="dropdown-menu">
-                        <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo; </a>
-                        <li><hr class="dropdown-divider"></li>
-                            <ul class="submenu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <li><hr class="dropdown-divider"></li>
                                     <ul class="submenu dropdown-menu">
                                         <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
                                         <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
                             </ul>
-                        </li>
-                        <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
+                            </li>
+                            <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <ul class="submenu dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                <li><hr class="dropdown-divider"></li>
-                                    <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
-                                    </ul>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
+                                </ul>
                                 </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
                             </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> Dropdown item 3 &raquo;</a>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
+                            </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> Dropdown item 4 &raquo;</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
+                        </ul>
                         </li>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
+
+                    <a class="nav-link" href="#">About Us</a>
+
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo; </a>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
+                                </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
+                            </ul>
+                            </li>
+                            <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Submenu item 1 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Submenu item 2 &raquo;</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Multi level 1 &raquo;</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Multi level 2 &raquo;</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Submenu item 4 &raquo;</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Submenu item 5 &raquo;</a></li>
+                        </ul>
+                        </li>
+                        </ul>
+                    </div>
                     <a class="nav-link" href="#">Portfolio</a>
                     <a class="nav-link" href="#">Packages</a>
                     <a class="nav-link" href="/contact_us.html">Contact Us</a>
                 </div>
             </div>
         </div>
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
+        <nav class="navbar bg-danger-subtle">
+            <div class="container-fluid">
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
                 </form>
-                </div>
-            </nav>
+            </div>
+        </nav>
     </nav>
 
 
@@ -191,33 +260,41 @@
 
         <div id="carouselExampleIndicators" class="carousel slide mb-5 pt-5 pb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/images/0010.jpg" class="d-block w-100 img-fluid img-thumbnail" alt="Image 1" style="width: 1600px; height: 480px;">
+                    <img src="/images/0010.jpg" class="d-block w-100 img-fluid img-thumbnail rounded" alt="Image 1"
+                        style="width: 1600px; height: 480px;">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/0020.png" class="d-block w-100 img-fluid img-thumbnail" alt="Image 2" style="width: 1600px; height: 480px;">
+                    <img src="/images/0020.png" class="d-block w-100 img-fluid img-thumbnail rounded" alt="Image 2"
+                        style="width: 1600px; height: 480px;">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/003.jpg" class="d-block w-100 img-fluid img-thumbnail" alt="Image 3" style="width: 1600px; height: 480px;">
+                    <img src="/images/003.jpg" class="d-block w-100 img-fluid img-thumbnail rounded" alt="Image 3"
+                        style="width: 1600px; height: 480px;">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
 
 
-        
+
         <!-- Left& Right Image -->
         <!-- <div class="container text-center">
             <p class="h1">Our Services</p>
@@ -266,7 +343,8 @@
             <div class="row mb-3">
                 <div class="col-lg-6">
                     <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-1.jpg" alt="" srcset="" width="100%">
+                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-1.jpg" alt=""
+                            srcset="" width="100%">
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex ps-5">
@@ -278,7 +356,8 @@
                             Social events
                         </div>
                         <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
+                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum
+                            scripta pro. Qui in clita everti propriae, vidit voluptaria.
                         </div>
                     </div>
                 </div>
@@ -296,15 +375,17 @@
                             Social events
                         </div>
                         <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
+                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum
+                            scripta pro. Qui in clita everti propriae, vidit voluptaria.
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex ps-5">
                     <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-4.jpg" alt="" srcset="" width="100%">
+                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-4.jpg" alt=""
+                            srcset="" width="100%">
                     </div>
-                    
+
                 </div>
             </div>
 
@@ -312,7 +393,8 @@
             <div class="row mb-3 pb-5 mt-5 pt-5">
                 <div class="col-lg-6">
                     <div>
-                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-3.jpg" alt="" srcset="" width="100%">
+                        <img src="https://banquet.qodeinteractive.com/wp-content/uploads/2019/11/h3-img-3.jpg" alt=""
+                            srcset="" width="100%">
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex ps-5">
@@ -324,17 +406,18 @@
                             Corporate parties
                         </div>
                         <div class="desc">
-                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum scripta pro. Qui in clita everti propriae, vidit voluptaria.
+                            Autem dicant cum ex, ei vis nibh solum simul, veritus fierent fastidii quo ea. Cu solum
+                            scripta pro. Qui in clita everti propriae, vidit voluptaria.
                         </div>
                     </div>
                 </div>
             </div>
 
 
-        
+
         </div>
 
-        
+
 
 
 
@@ -345,7 +428,7 @@
 
 
         <!-- cards-wrapper -->
-        
+
         <!-- <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
             <div class="col" style="width: 18rem;">
                 <div class="card">
@@ -399,7 +482,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -413,7 +496,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -427,7 +510,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -441,7 +524,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -455,7 +538,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -469,7 +552,7 @@
                 <div class="col-lg-4">
                     <div class="d-flex justify-content-center align-items-center flex-column">
                         <div class="icon-why">
-                           <img src="./images/heart.svg" alt="" srcset=""width="30px">
+                            <img src="./images/heart.svg" alt="" srcset="" width="30px">
                         </div>
                         <div class="title-why">
                             Exclusive Design
@@ -484,12 +567,12 @@
 
 
 
-       
+
 
         <!-- sponsor image with animation -->
-        
 
-        
+
+
 
 
 
@@ -511,50 +594,55 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-box">
-                        <img src="/images/logo.png" class="img-fluid img-thumbnail" alt="logo" style="height: 90px; width: 220px;">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
-                    <h3>We Accect</h3>
-                    <div class="card-area">
+                        <img src="/images/logo.png" class="img-fluid img-thumbnail" alt="logo"
+                            style="height: 90px; width: 220px;">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium
+                            aspernatur iure molestias.</p>
+                        <h3>We Accect</h3>
+                        <div class="card-area">
                             <i class="fa fa-cc-visa"></i>
                             <i class="fa fa-credit-card"></i>
                             <i class="fa fa-cc-mastercard"></i>
                             <i class="fa fa-cc-paypal"></i>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-box">
                         <h2>Hosting</h2>
-                    <ul>
-                        <li><a href="#">Web Hosting</a></li>
-                        <li><a href="#">Cloud Hosting</a></li>
-                        <li><a href="#">CMS Hosting</a></li>
-                        <li><a href="#">WordPress Hosting</a></li>
-                        <li><a href="#">Email Hosting</a></li>
-                        <li><a href="#">VPS Hosting</a></li>
-                    </ul>
-                    </div>                    
+                        <ul>
+                            <li><a href="#">Web Hosting</a></li>
+                            <li><a href="#">Cloud Hosting</a></li>
+                            <li><a href="#">CMS Hosting</a></li>
+                            <li><a href="#">WordPress Hosting</a></li>
+                            <li><a href="#">Email Hosting</a></li>
+                            <li><a href="#">VPS Hosting</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-box">
                         <h2>Domain</h2>
-                    <ul>
-                        <li><a href="#">Web Domain</a></li>
-                        <li><a href="#">Cloud Domain</a></li>
-                        <li><a href="#">CMS Domain</a></li>
-                        <li><a href="#">WordPress Domain</a></li>
-                        <li><a href="#">Email Domain</a></li>
-                        <li><a href="#">VPS Domain</a></li>
-                    </ul>
-                    </div>                    
+                        <ul>
+                            <li><a href="#">Web Domain</a></li>
+                            <li><a href="#">Cloud Domain</a></li>
+                            <li><a href="#">CMS Domain</a></li>
+                            <li><a href="#">WordPress Domain</a></li>
+                            <li><a href="#">Email Domain</a></li>
+                            <li><a href="#">VPS Domain</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-box">
                         <h2>Newsletter</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum similique fugiat nobis. Facere?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum
+                            similique fugiat nobis. Facere?</p>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i
+                                    class="fa fa-long-arrow-right"></i></span>
                         </div>
                         <h2>Follow us on</h2>
                         <p class="socials">
@@ -573,9 +661,10 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
