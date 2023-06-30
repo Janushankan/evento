@@ -42,9 +42,14 @@
 
 /*navbar*/
 
+.nav-bar {
+	cursor: pointer;
+	/* Or any other desired cursor value */
+}
+
 .navbar-nav .nav-link:hover {
 	color: #fff;
-	background-color: #f55baf;
+	/* background-color: #f55baf; */
 	border-radius: 10px;
 }
 
@@ -54,18 +59,24 @@
 }
 
 .widget_contacts .text {
-    max-width: 185px;
-    font-size: 13px;
-    overflow: hidden;
+	max-width: 185px;
+	font-size: 13px;
+	overflow: hidden;
 }
 
 
 .widget_contacts {
-    padding: 0;
-    list-style: none;
+	padding: 0;
+	list-style: none;
 }
 
-.foot{
+
+
+
+
+
+
+.foot {
 	color: #101010 !important;
 }
 

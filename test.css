@@ -1,80 +1,106 @@
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-	.dropdown-menu li{ position: relative; 	}
-	.nav-item .submenu{ 
+	.dropdown-menu li {
+		position: relative;
+	}
+
+	.nav-item .submenu {
 		display: none;
 		position: absolute;
-		left:100%; top:-7px;
+		left: 100%;
+		top: -7px;
 	}
-	.nav-item .submenu-left{ 
-		right:100%; left:auto;
+
+	.nav-item .submenu-left {
+		right: 100%;
+		left: auto;
 	}
-	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
-	.dropdown-menu > li:hover > .submenu{ display: block; }
-}	
+
+	.dropdown-menu>li:hover {
+		background-color: #f1f1f1
+	}
+
+	.dropdown-menu>li:hover>.submenu {
+		display: block;
+	}
+}
+
 /* ============ desktop view .end// ============ */
 
 /* ============ small devices ============ */
 @media (max-width: 991px) {
-  .dropdown-menu .dropdown-menu{
-      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
-  }
-}	
+	.dropdown-menu .dropdown-menu {
+		margin-left: 0.7rem;
+		margin-right: 0.7rem;
+		margin-bottom: .5rem;
+	}
+}
 
-.gap-40{
-    gap: 40px;
+.gap-40 {
+	gap: 40px;
 }
 
 footer {
 	background: #101010;
 	padding: 86px 0;
 }
+
 .single-content {
 	text-align: center;
 	padding: 115px 0;
 }
+
 .single-box p {
 	color: #fff;
 	line-height: 1.9;
 }
+
 .single-box h3 {
 	font-size: 16px;
 	font-weight: 700;
 	color: #fff;
 }
+
 .single-box .card-area i {
 	color: #ffffff;
 	font-size: 20px;
 	margin-right: 10px;
 }
+
 .single-box ul {
 	list-style: none;
 	padding: 0;
 }
+
 .single-box ul li a {
 	text-decoration: none;
 	color: #fff;
 	line-height: 2.5;
 	font-weight: 100;
 }
+
 .single-box h2 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 700;
 }
+
 #basic-addon2 {
 	background: #fe1e4f;
 	color: #fff;
 }
+
 .socials i {
 	font-size: 18px;
 	margin-right: 15px;
 }
+
 @media (max-width: 767px) {
 	.single-box {
 		margin-bottom: 50px;
 	}
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.single-box {
 		margin-bottom: 50px;
@@ -87,21 +113,21 @@ footer {
 
 
 .footer-inner-container .footer-items .footer-item:nth-child(4) {
-    padding-left: 40px;
+	padding-left: 40px;
 }
 
 .footer-inner-container .footer-items .footer-item:nth-child(4) {
-    width: 50%;
-    box-sizing: border-box;
+	width: 50%;
+	box-sizing: border-box;
 }
 
 .footer-inner-container .footer-items .footer-item {
-    flex: auto;
-    margin-bottom: 50px;
+	flex: auto;
+	margin-bottom: 50px;
 }
 
-.footer-inner-container .footer-items .footer-item{
-    margin: 0 0 30px;
+.footer-inner-container .footer-items .footer-item {
+	margin: 0 0 30px;
 }
 
 
