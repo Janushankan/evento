@@ -80,3 +80,47 @@ footer {
 		margin-bottom: 50px;
 	}
 }
+
+
+footer {
+	background-color: #f1f1f1;
+	padding: 20px;
+  }
+  
+  .footer-column {
+	width: 33.33%;
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  .logo {
+	width: 100px;
+	height: 100px;
+  }
+  
+  .footer-column p {
+	margin-top: 10px;
+  }
+  
+  .footer-column h4 {
+	margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+	list-style-type: none;
+	padding-left: 0;
+  }
+  
+  .footer-column ul li {
+	margin-bottom: 5px;
+  }
+  
+  .footer-column ul li a {
+	color: #333;
+	text-decoration: none;
+  }
+  
+  .contact-details li i {
+	margin-right: 5px;
+  }
+  
