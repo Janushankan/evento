@@ -82,6 +82,33 @@ footer {
 }
 
 
+
+
+
+
+.footer-inner-container .footer-items .footer-item:nth-child(4) {
+    padding-left: 40px;
+}
+
+.footer-inner-container .footer-items .footer-item:nth-child(4) {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.footer-inner-container .footer-items .footer-item {
+    flex: auto;
+    margin-bottom: 50px;
+}
+
+.footer-inner-container .footer-items .footer-item{
+    margin: 0 0 30px;
+}
+
+
+
+
+
+/* 
 footer {
 	background-color: #f1f1f1;
 	padding: 20px;
@@ -123,4 +150,4 @@ footer {
   .contact-details li i {
 	margin-right: 5px;
   }
-  
+   */
