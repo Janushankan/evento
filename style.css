@@ -16,7 +16,7 @@
 	}
 
 	.dropdown-menu>li:hover {
-		background-color: #f1f1f1
+		background-color: #f1f1f1;
 	}
 
 	.dropdown-menu>li:hover>.submenu {
@@ -113,7 +113,7 @@
 }
 
 .icon-why {
-	background-color: #ce8272;
+	background-color: #eba7d3;
 	height: 100px;
 	width: 100px;
 	border-radius: 100%;
@@ -122,6 +122,7 @@
 	align-items: center;
 	margin-bottom: 30px;
 	transform: 0.5s;
+	transition: 0.5s;
 }
 
 .title-why {
@@ -141,7 +142,7 @@
 }
 
 .icon-why:hover {
-	background-color: #db5235;
+	background-color: #f1039e;
 }
 
 
@@ -160,17 +161,17 @@
 }
 
 .elementor-widget-divider .elementor-divider {
-    display: flex;
+	display: flex;
 }
 
 
 
-.elementor-divider-separator{
+.elementor-divider-separator {
 	text-align: center;
 	direction: ltr;
-    display: flex;
-    width: 50px;
-    margin: 0 auto;
+	display: flex;
+	width: 50px;
+	margin: 0 auto;
 }
 
 
@@ -318,41 +319,51 @@ footer {
 	}
 }
 
-.nav-link:hover{
-	color: #dd5757 !important;
+.nav-link:hover {
+	color: #f1039e !important;
 }
-.dropdown-item{
+
+.foott-link:hover {
+	color: #f1039e !important;
+}
+
+.dropdown-item {
 	transition: 0.5s;
 }
-.dropdown-item:hover{
-	color: #dd5757 !important;
-	background-color: #ce817233 !important;
+
+.dropdown-item:hover {
+	color: #f1039e !important;
+	padding: 10px;
+	background-color: #f1039e3f !important;
+	border-radius: 4px;
 }
-.dropdown-divider{
+
+.dropdown-divider {
 	margin: 0 !important;
 }
-.search-btn{
-	transition: 0.5s !important;
+
+.search-btn {
+	transition: 0.3s !important;
 }
-.search-btn:hover{
-	background-color: #ce8272 !important;
+
+.search-btn:hover {
+	background-color: #f1039e77 !important;
 	color: #fff !important;
 }
-.slider-img{
+
+.slider-img {
 	border: 10px solid #fff;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.nav-bg{
-	background-color: rgb(151, 26, 26) !important;
+
+.nav-bg {
+	background-color: #eac7de !important;
 }
 
+.follow {
+	color: #101010;
+}
 
-
-
-
-
-
-
-
-
-
+.follow:hover {
+	color: blue;
+}
