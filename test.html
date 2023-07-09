@@ -5,28 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css">
+    <title>EVENTO</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- animation effects -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+    <!-- for footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary">
+    <!--Navbar-->
+    <nav class="navbar px-5 navbar-expand-lg nav-bg pb-2">
         <div class="container-fluid">
-
-            <a href="/index.html"><img src="/images/logo.png" class="img-fluid img-thumbnail" alt="logo"
+            <a href="/index.html"><img src="/images/logo.png" class="img-fluid img-thumbnail rounded" alt="logo"
                     style="height: 65px; width: 150px;"></a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse justify-content-center" id="main_nav">
                 <ul class="navbar-nav gap-40">
-                    <li class="nav-item "> <a class="nav-link text-body-emphasis" href="#">Home </a> </li>
+                    <li class="nav-item"> <a class="nav-link active text-body-emphasis" aria-current="page"
+                            href="#">Home </a> </li>
 
                     <li class="nav-item text-body-emphasis"><a class="nav-link text-body-emphasis" href="#">About Us</a>
                     </li>
@@ -34,194 +54,194 @@
                     <li class="nav-item dropdown" id="myDropdown">
                         <a class="nav-link dropdown-toggle text-body-emphasis" href="#"
                             data-bs-toggle="dropdown">Categories</a>
-                        <ul class="dropdown-menu">
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                        <ul class="dropdown-menu p-0">
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 1 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider m-0">
+                            </li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 2 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider m-0">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider m-0">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 3 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 3 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 4 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 4 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 5 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 5 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 6 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 6 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -230,194 +250,194 @@
                     <li class="nav-item dropdown" id="myDropdown">
                         <a class="nav-link dropdown-toggle text-body-emphasis" href="#"
                             data-bs-toggle="dropdown">Services</a>
-                        <ul class="dropdown-menu">
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 1 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                        <ul class="dropdown-menu p-0">
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 1 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider m-0">
+                            </li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 2 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider m-0">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider m-0">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 2 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 3 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 3 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 4 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 4 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 5 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 5 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                            <li> <a class="dropdown-item py-2" href="#"> Dropdown item 6 &raquo; </a>
+                                <ul class="submenu dropdown-menu p-0">
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 1</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 2</a></li>
                                     <li>
-                                        <hr class="dropdown-divider">
+                                        <hr class="dropdown-divider m-0">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 3 &raquo; </a>
+                                        <ul class="submenu dropdown-menu p-0">
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 1</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">
                                             </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            <li><a class="dropdown-item py-2" href="#">Multi level 2</a></li>
                                         </ul>
                                     </li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 4</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li> <a class="dropdown-item" href="#"> Dropdown item 6 &raquo; </a>
-                                <ul class="submenu dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 3 &raquo; </a>
-                                        <ul class="submenu dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Multi level 1</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Multi level 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    <li><a class="dropdown-item py-2" href="#">Submenu item 5</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -429,455 +449,153 @@
                     <li class="nav-item text-body-emphasis"><a class="nav-link text-body-emphasis" href="#">Packages</a>
                     </li>
 
-                    <li class="nav-item text-body-emphasis"><a class="nav-link text-body-emphasis" href="#">Contact
+                    <li class="nav-item text-body-emphasis"><a class="nav-link text-body-emphasis"
+                            href="/contact_us.html">Contact
                             Us</a></li>
 
                 </ul>
             </div>
-
         </div>
-
+        <nav class="navbar">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <!-- <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn search-btn" style="background-color: #e97dc3;" type="submit">Login</button>
+                </form>
+            </div>
+        </nav>
     </nav>
 
 
+    <main>
+        <h2>Hiii</h2>
+    </main>
 
+    <!-- footer -->
+    <footer class="navbar-dark nav-bg mt-auto pb-5">
+        <div class="container">
+            <div class="row">
 
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="/images/logo.png" class="img-fluid img-thumbnail" alt="logo"
+                            style="height: 90px; width: 220px;">
 
-
-
-
-
-    <script src="test.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-<!-- 
-
-    
-
-    <footer class="r2g-footer row-style">
-        <div class="container footer-inner-container">
-            <li class="footer-item">
-                <div class="r2g-footer-component contact-details">
-                    <h3 class="check-empty-text">Contact Us</h3>
-                    <div class="contact-detail-row address">
-                        <div class="contact-detail-row-inner">
-                            <address>
-                                <span class="icon icon-i-65-locate-place-fill"></span>
-                                Sri Lanka Export Development Board <br>No. 42 Nawam Mawatha,<br> Colombo-02,<br> Sri
-                                Lanka.
-                            </address>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row tel">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-84-phone-call-fill"></span>
-                            <a class="check-empty" href="tel:+94112300705 " title="Telephone Number"> +94-11-230-0705 /
-                                11</a>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row mobile no-content">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-93-mobile-fill"></span>
-                            <a class="check-empty" href="" title=""></a>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row fax">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-49-fax-fill"></span>
-                            +94-11-230-0715
-                        </div>
-                    </div>
-                    <div class="contact-detail-row email">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-39-e-mail-fill"></span>
-                            <a class="check-empty" href="mailto:edb@edb.gov.lk" title="Email Address">edb@edb.gov.lk</a>
+                        <h3 class="pt-4 foot">About Us</h3>
+                        <p class="foot">We are your trusted event planning partner, offering comprehensive services
+                            and
+                            tools to streamline your event management process. Let us help you create unforgettable
+                            experiences.</p>
+                        <div class="card-area">
+                            <i class="fa fa-cc-visa foot"></i>
+                            <i class="fa fa-credit-card foot"></i>
+                            <i class="fa fa-cc-mastercard foot"></i>
                         </div>
                     </div>
                 </div>
-                <div class="r2g-footer-component contact-details">
-                    <h3 class="check-empty-text">Customer Help Desk</h3>
-                    <div class="contact-detail-row address no-content">
-                        <div class="contact-detail-row-inner">
-                            <address>
-                                <span class="icon icon-i-65-locate-place-fill"></span>
-                            </address>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row tel no-content">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-84-phone-call-fill"></span>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row mobile no-content">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-93-mobile-fill"></span>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row fax no-content">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-49-fax-fill"></span>
-                        </div>
-                    </div>
-                    <div class="contact-detail-row email">
-                        <div class="contact-detail-row-inner">
-                            <span class="icon icon-i-39-e-mail-fill"></span>
-                            <a class="check-empty"
-                                href="https://www.srilankabusiness.com/edb/exporter-advisory-on-covid-19.html#edbhelpdesk"
-                                title="Help Desk Contact">Help Desk Contact</a>
-                        </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 class="foot">Quick Links</h2>
+                        <ul>
+                            <li><a href="/index.html" class="foot foott-link">Home</a></li>
+                            <li><a href="#" class="foot foott-link">About Us</a></li>
+                            <li><a href="#" class="foot foott-link">Categories</a></li>
+                            <li><a href="#" class="foot foott-link">Services</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row clearfix r2g-form-footer-component text-align-left default-component">
-                    <div class="intro-content">
-                        <h3>Receive EDB Newsletter</h3>
-                    </div>
-                    <div class="form-wrapper">
-                        <form id="subForm" class="cms-form form-newsletter js-cm-form"
-                            action="https://www.createsend.com/t/subscribeerror?description=" method="post"
-                            data-id="5B5E7037DA78A748374AD499497E309E1C162FC6337D55C5DA5387CB610FA8DF3AE395D9C6EF6850468F4007FF0987502A78E0EDDA8208379D541C111D9B8F54"
-                            novalidate="novalidate">
-                            <div class="fb-text form-group field-text-1574651585997 ">
-                                <input autocomplete="Email" aria-label="Email" id="fieldEmail" name="cm-tkyudyr-tkyudyr"
-                                    required="" type="email" class="form-control js-cm-email-input sc-iwsKbI iMsgpL">
-                            </div>
 
-                            <div class="fb-button form-group field-button-1574651707050 ">
-                                <button type="submit" class="button  primary-button"
-                                    id="field_button-1574651707050_newsletter" name="button-1574651707050">Sign
-                                    Up</button>
-                            </div>
-                        </form>
-                        <script type="text/javascript"
-                            src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 class="foot">Quick Links</h2>
+                        <ul>
+                            <li><a href="#" class="foot foott-link">Portfolio</a></li>
+                            <li><a href="#" class="foot foott-link">Contact Us</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="r2g-content-block-footer text-align-left default-component">
-                    <div class="content-wrapper">
-                        <p><a href="https://www.srilankabusiness.com/privacy-policy.html">View</a> our Data Protection
-                            &amp;
-                            Privacy Policy&nbsp;</p>
-                    </div>
-                </div>
-            </li>
-        </div>
-    </footer>
- -->
 
-
-<!-- <footer id="footer">
-        <div class="footer_wrapper">
-            <div id="footer_top">
-                <div class="footer_widgets_wrapper">
-                    <div class="container">
-                        <div class="widgets cols_4 clearfix">
-                            <aside id="archives-2" class="widget widget_archive">
-                                <div class="widget_title">
-                                    <h3>Archives</h3>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 class="foot">Contact</h2>
+                        <ul class="widget_contacts_style_1">
+                            <li class="widget_contacts_address text-dark d-flex mt-4">
+                                <div class="icon"><i class='fa-solid fa-location-dot'></i></div>
+                                <div class="text ms-3"><b>Evento (Pvt) Ltd.</b><br><b>Colombo Branch</b><br>No. 47,
+                                    Ananda
+                                    Coomaraswamy Mawatha, Colombo 03, 00300.<br><b>Ja-Ela Branch</b><br>
+                                    No. 78/5(1st Floor),
+                                    Ja-Ela Road Ekala,<br>
+                                    Sri Lanka.
                                 </div>
-                                <ul>
-                                    <li><a href="https://www.lankaacademy.lk/2020/11/">November 2020</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/2018/08/">August 2018</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/2015/05/">May 2015</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/2015/04/">April 2015</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/2015/03/">March 2015</a></li>
-                                </ul>
-                            </aside>
-                            <aside id="meta-2" class="widget widget_meta">
-                                <div class="widget_title">
-                                    <h3>Meta</h3>
+                            </li>
+
+                            <li class="widget_contacts_phone text-dark d-flex mt-4">
+                                <div class="icon"><i class='fas fa-phone-alt'></i></div>
+                                <div class="text ms-3"><b>Office phone</b> <br>
+                                    0111234567<br><b>Mobile</b><br>0771234567<br>0701234567<br>0777654321</div>
+                            </li>
+
+                            <li class="widget_contacts_email d-flex align-items-center">
+                                <div class="icon"><i class='fa fa-envelope'></i></div>
+                                <div class="text ms-3">
+                                    <a href="mailto:evento@lanka.lk" class="text-primary">evento@lanka.lk</a>
                                 </div>
-                                <ul>
-                                    <li><a rel="nofollow" href="https://www.lankaacademy.lk/register/">Register</a></li>
-                                    <li><a rel="nofollow" href="https://www.lankaacademy.lk/login/">Log in</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/feed/">Entries feed</a></li>
-                                    <li><a href="https://www.lankaacademy.lk/comments/feed/">Comments feed</a></li>
-                                    <li><a href="https://wordpress.org/">WordPress.org</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footer_bottom">
-                <div class="footer_widgets_wrapper kek text-upper">
-                    <div class="container">
-                        <div class="widgets cols_4 clearfix">
-                            <aside id="stm_text-2" class="widget stm_wp_widget_text">
-                                <div class="widget_title">
-                                    <h3>About</h3>
-                                </div>
-                                <div class="textwidget">
-                                    <p>Lanka Academy is a versatile online platform which connects students all over the
-                                        world to the best instructors both locally and internationally.</p>
-                                    <p>We’re dedicated to give you the very best of the professionalism that you search
-                                        for with a focus on dependability , integrity and quality.<br>
-                                        <a href="https://learn.lankaacademy.lk/moodle310/course/index.php"
-                                            class="btn btn-default">Learning Now</a>
-                                    </p>
-                                    <p><a href="https://www.vote.bestweb.lk/site/www_lankaacademy_lk"
-                                            target="_blank"><img src="/wp-content/uploads/2023/05/vote4us.png"
-                                                width="150px"></a></p>
-                                </div>
-                            </aside>
-                            <aside id="stm_pages-2" class="widget widget_pages">
-                                <div class="widget_title">
-                                    <h3>Pages</h3>
-                                </div>
-                                <ul class="style_1">
-                                    <li class="page_item page-item-6649"><a
-                                            href="https://www.lankaacademy.lk/al_classes-local/"><span class="h6">A/L
-                                                Classes</span></a></li>
-                                    <li class="page_item page-item-10381"><a
-                                            href="https://www.lankaacademy.lk/cookies-policy/"><span class="h6">Cookies
-                                                Policy</span></a></li>
-                                    <li class="page_item page-item-6772"><a
-                                            href="https://www.lankaacademy.lk/o-l-classes-cambridge/"><span
-                                                class="h6">O/L CLASSES</span></a></li>
-                                    <li class="page_item page-item-3"><a
-                                            href="https://www.lankaacademy.lk/privacy-policy-2/"><span
-                                                class="h6">Privacy Policy</span></a></li>
-                                    <li class="page_item page-item-7869"><a
-                                            href="https://www.lankaacademy.lk/schedule-class/"><span class="h6">Schedule
-                                                Your Class</span></a></li>
-                                    <li class="page_item page-item-8465"><a
-                                            href="https://www.lankaacademy.lk/sitemap/"><span
-                                                class="h6">Sitemap</span></a></li>
-                                </ul>
-                            </aside>
-                            <aside id="contacts-2" class="widget widget_contacts">
-                                <div class="widget_title">
-                                    <h3>Contact</h3>
-                                </div>
-                                <ul class="widget_contacts_style_1">
-                                    <li class="widget_contacts_address">
-                                        <div class="icon"><i class="fa-icon-stm_icon_pin"></i></div>
-                                        <div class="text">Lanka Talents Creation (Pvt) Ltd.<br><b>Colombo
-                                                Branch</b><br>47 Ananda Coomaraswamy Mawatha, Colombo 03,
-                                            00300<br><b>Ja-Ela Branch</b><br>No 78/5 (1st Floor), Ja-Ela Road Ekala, Sri
-                                            Lanka</div>
-                                    </li>
-                                    <li class="widget_contacts_phone">
-                                        <div class="icon"><i class="fa-icon-stm_icon_phone"></i></div>
-                                        <div class="text"><b>Office phone</b> <br>
-                                            0112242209<br><b>Mobile</b><br>0770244992<br>0701900264<br>0779643264</div>
-                                    </li>
-                                    <li class="widget_contacts_email">
-                                        <div class="icon"><i class="fa fa-envelope"></i></div>
-                                        <div class="text"><a
-                                                href="mailto:hello@lankaacademy.lk">hello@lankaacademy.lk</a></div>
-                                    </li>
-                                </ul>
-                            </aside>
-                            <aside id="media_image-3" class="widget widget_media_image"><img width="150" height="150"
-                                    src="https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-150x150.png"
-                                    class="image wp-image-10210  attachment-thumbnail size-thumbnail" alt=""
-                                    loading="lazy" style="max-width: 100%; height: auto;"
-                                    srcset="https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-150x150.png 150w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-75x75.png 75w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-400x400.png 400w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-129x129.png 129w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-69x69.png 69w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-300x300.png 300w, https://www.lankaacademy.lk/wp-content/uploads/2022/05/Most-Popular-University-_-Education-Institute-Website-1-100x100.png 100w"
-                                    sizes="(max-width: 150px) 100vw, 150px"></aside>
-                            <aside id="socials-10" class="widget widget_socials">
-                                <div class="socials_widget_wrapper">
-                                    <ul class="widget_socials list-unstyled clearfix">
-                                        <li class="simple_flip_container">
-                                            <div class="simple_flipper">
-                                                <div class="front">
-                                                    <a href="https://www.facebook.com/lankaacademy.lk" target="_blank"
-                                                        class="facebook"><i class="fab fa-facebook"></i></a>
-                                                </div>
-                                                <div class="back">
-                                                    <a href="https://www.facebook.com/lankaacademy.lk"
-                                                        target="_blank"><i class="fab fa-facebook"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="simple_flip_container">
-                                            <div class="simple_flipper">
-                                                <div class="front">
-                                                    <a href="https://twitter.com/LankaAcademy" target="_blank"
-                                                        class="twitter"><i class="fab fa-twitter"></i></a>
-                                                </div>
-                                                <div class="back">
-                                                    <a href="https://twitter.com/LankaAcademy" target="_blank"><i
-                                                            class="fab fa-twitter"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="simple_flip_container">
-                                            <div class="simple_flipper">
-                                                <div class="front">
-                                                    <a href="https://www.instagram.com/lankaacademy.lk/" target="_blank"
-                                                        class="instagram"><i class="fab fa-instagram"></i></a>
-                                                </div>
-                                                <div class="back">
-                                                    <a href="https://www.instagram.com/lankaacademy.lk/"
-                                                        target="_blank"><i class="fab fa-instagram"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="simple_flip_container">
-                                            <div class="simple_flipper">
-                                                <div class="front">
-                                                    <a href="https://www.linkedin.com/company/lankaacademylk"
-                                                        target="_blank" class="linkedin"><i
-                                                            class="fab fa-linkedin"></i></a>
-                                                </div>
-                                                <div class="back">
-                                                    <a href="https://www.linkedin.com/company/lankaacademylk"
-                                                        target="_blank"><i class="fab fa-linkedin"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="simple_flip_container">
-                                            <div class="simple_flipper">
-                                                <div class="front">
-                                                    <a href="https://www.youtube.com/channel/UCWGhaf_ohs2z7H6nDjAt8Tg"
-                                                        target="_blank" class="youtube"><i
-                                                            class="fab fa-youtube"></i></a>
-                                                </div>
-                                                <div class="back">
-                                                    <a href="https://www.youtube.com/channel/UCWGhaf_ohs2z7H6nDjAt8Tg"
-                                                        target="_blank"><i class="fab fa-youtube"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </aside>
-                            <aside id="custom_html-6" class="widget_text widget widget_custom_html">
-                                <div class="textwidget custom-html-widget"></div>
-                            </aside>
-                            <aside id="custom_html-7" class="widget_text widget widget_custom_html">
-                                <div class="textwidget custom-html-widget">
-                                    <p style="text-align:right; font-size:11px;">
-                                        Copyright © 2023 Lanka Talents Creation (Pvt) Ltd. <br><a target="_blank"
-                                            href="https://www.3cs.lk/" class="footer" rel="noopener noreferrer">Web
-                                            Design by 3CS</a></p>
-                                </div>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer> -->
+                            </li>
+                        </ul>
 
+                        <!-- <div class="input-group mb-3 mt-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">
+                                <i class="fa fa-long-arrow-right"></i>
+                            </span>
+                        </div> -->
 
-
-
-
-
-
-
-<!-- footer -->
-<!--         
-        <footer class="navbar navbar-dark bg-dark">
-          <footer class="bg-dark text-white pt-5 pb-4">
-            <div class="container text-center text-md-left">
-                <div class="row text-center text-md-left">
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Company Name</h5>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt veritatis quisquam placeat, 
-                        amet iusto recusandae accusantium officia ipsum magnam laborum, a beatae aspernatur excepturi laboriosam, 
-                        quibusdam maiores natus culpa obcaecati!</p>
-    
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
-                            <p>
-                                <a href="#" class="text-white" style="text-decoration: none;"></a>
+                        <div>
+                            <h2 class="text-dark">Follow us on</h2>
+                            <p class="socials text-dark">
+                                <a href="#" class="follow"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="follow"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="follow"><i class="fa fa-linkedin"></i></a>
+                                <a href="#" class="follow"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="follow"><i class="fa fa-youtube"></i></a>
+                                <a href="#" class="follow"><i class="fa fa-pinterest"></i></a>
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-        </footer>
-        </footer> -->
 
-
-
-
-
-<!-- 
-    
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-box">
-                        <img src="img/logo.png" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium
-                            aspernatur iure molestias.</p>
-                        <h3>We Accect</h3>
-                        <div class="card-area">
-                            <i class="fa fa-cc-visa"></i>
-                            <i class="fa fa-credit-card"></i>
-                            <i class="fa fa-cc-mastercard"></i>
-                            <i class="fa fa-cc-paypal"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-box">
-                        <h2>Hosting</h2>
-                        <ul>
-                            <li><a href="#">Web Hosting</a></li>
-                            <li><a href="#">Cloud Hosting</a></li>
-                            <li><a href="#">CMS Hosting</a></li>
-                            <li><a href="#">WordPress Hosting</a></li>
-                            <li><a href="#">Email Hosting</a></li>
-                            <li><a href="#">VPS Hosting</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-box">
-                        <h2>Domain</h2>
-                        <ul>
-                            <li><a href="#">Web Domain</a></li>
-                            <li><a href="#">Cloud Domain</a></li>
-                            <li><a href="#">CMS Domain</a></li>
-                            <li><a href="#">WordPress Domain</a></li>
-                            <li><a href="#">Email Domain</a></li>
-                            <li><a href="#">VPS Domain</a></li>
-                        </ul>
-                    </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-box">
-                        <h2>Newsletter</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum
-                            similique fugiat nobis. Facere?</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Recipient's username"
-                                aria-label="Enter your Email ..." aria-describedby="basic-addon2">
-                            <span class="input-group-text" id="basic-addon2"><i
-                                    class="fa fa-long-arrow-right"></i></span>
-                        </div>
-                        <h2>Follow us on</h2>
-                        <p class="socials">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-dribbble"></i>
-                            <i class="fa fa-pinterest"></i>
-                            <i class="fa fa-twitter"></i>
-                        </p>
-                    </div>
-                </div>
-                
             </div>
 
         </div>
 
+        <div class="textwidget custom-html-widget">
+            <p style="text-align:center; font-size:15px;">
+                Copyright © 2023 EVENTO (Pvt) Ltd. All rights reserved.
+            </p>
+        </div>
 
-    </footer> -->
+
+
+    </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script> -->
+    <script src="/contact_us.js"></script>
+</body>
+
+</html>
