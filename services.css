@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
 }
 
 @media all and (min-width: 992px) {
@@ -385,16 +385,22 @@ h1 {
 }
 
 p {
-	color: #777;
-	font-size: 14px;
+	/* color: #777; */
+	/* font-size: 14px; */
 	font-weight: 400;
-	line-height: 22px;
-	padding: 10px;
+	/* line-height: 22px; */
+	/* padding: 10px; */
 
 }
 
+.our-services-col2 p,
+.our-services-col1 p,
+.our-services p {
+	color: #777;
+}
+
 .row {
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	display: flex;
 	justify-content: space-between;
 }
@@ -417,7 +423,7 @@ p {
 }
 
 h3 {
-	text-align: center;
+	/* text-align: center; */
 	font-weight: 700;
 	margin: 10px 0;
 }
@@ -475,7 +481,7 @@ h2 {
 	text-align: left;
 	font-weight: 700;
 	margin: 10px 0;
-	color: rgb(61, 180, 196);
+	color: #e626c9;
 
 }
 
@@ -533,4 +539,9 @@ h2 {
 	margin-top: 16px;
 	margin-bottom: 15px;
 	text-align: center;
+}
+
+
+.active {
+	color: #f1039e !important;
 }
