@@ -383,7 +383,7 @@ textarea.input {
   }
 }
 
-.fa-location-dot:before, .fa-map-marker-alt:before {
+/* .fa-location-dot:before, .fa-map-marker-alt:before {
   content: "\f3c5";
   color: #C03CC0;
 }
@@ -396,11 +396,11 @@ textarea.input {
 .fa-phone-alt:before, .fa-phone-flip:before {
   content: "\f879";
   color: #C03CC0;
-}
+} */
 
 .container-fluid{
-  margin-top: -40px;
-  margin-bottom: -40px;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 
 .c-container{
